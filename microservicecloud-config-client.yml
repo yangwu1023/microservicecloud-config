@@ -4,7 +4,7 @@ spring:
     - dev
 ---
 server:
-  port:8021
+  port: 8021
 spring:
   profiles: dev #开发环境
   application:
