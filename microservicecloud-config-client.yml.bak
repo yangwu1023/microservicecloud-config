@@ -4,7 +4,7 @@ spring:
     - dev
 ---
 server:
-  port:8021
+ port: 8021
 spring:
   profiles: dev #开发环境
   application:
@@ -14,8 +14,8 @@ eureka:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
 ---
-server:
-  port: 8022
+server
+ port: 8022
 spring:
   profiles: test #测试环境
   application:
